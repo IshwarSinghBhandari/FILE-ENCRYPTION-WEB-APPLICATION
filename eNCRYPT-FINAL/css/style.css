@@ -1,0 +1,91 @@
+.bg{
+	padding-bottom: 100px;
+}
+.custom-navbar{
+	background: #00b09b;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+}
+body::-webkit-scrollbar {
+	width: 10px;
+	border-radius: 10px;
+  }
+   
+  body::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+	background-color: darkgrey;
+	outline: 1px solid slategrey;
+	border-radius: 10px;
+  }
+/* home-page-css */
+.main-logo{
+	width: 15%;
+}
+.custom-navbar{
+	box-shadow: 0px 0px 10px #676767;
+}
+.encrypt-heading{
+	font-size: 50px;
+	font-weight: bold;
+	color: tomato;
+	
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	
+}
+
+.encrypt-logo{
+	width: 40%;
+
+}
+.card-title{
+	font-size: 35px;
+}
+.card-img{
+	padding:15px 0px 0px 0px;
+	
+}
+.custom-card{
+	margin-top: 40px;
+	border-radius: 20px !important;
+	transition: all 0.5s;
+	padding: 20px;
+	box-shadow: 0px 0px 10px #d5d5d5;
+	background: #d9a7c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.click-here{
+	margin-top: 20px;
+	text-decoration: none;
+	background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+	padding: 10px 20px;
+	color: white;
+    border-radius: 15px;
+	transition: all 0.6s;
+}
+.click-here:hover{
+    color: black;
+	background: #fffbd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b20a2c, #fffbd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	text-decoration: none;
+}
+/*-------------------------
+	Simple reset
+--------------------------*/
+@media screen and (max-width:551px) 
+{
+	.main-logo {
+		width: 37%;
+	}.logo-section{
+	width: 50%;
+   }	
+}
+

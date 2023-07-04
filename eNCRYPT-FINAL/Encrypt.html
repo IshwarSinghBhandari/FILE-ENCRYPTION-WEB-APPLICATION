@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypt</title>
+    <link rel="stylesheet" href="./css/encrytion.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="./js/bootstrap-min.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" />
+    
+</head>
+<body>
+    <!-- top-section -->
+
+    <section class="custom-navbar">
+        <div class="container">
+         <div class="row">
+             <nav class="navbar navbar-expand-lg navbar-light  ">
+ 
+                   <p class="logo-section"><a class="navbar-brand" href="./index.html"><img src="./img/encryption.png" alt="main-logo" class="img-fluid main-logo"></a></p>
+                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                   </button>
+                   <div class="collapse navbar-collapse" id="navbarScroll">
+                     <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+                       <li class="nav-item">
+                         <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                       </li>
+                       <li class="nav-item">
+                         <a class="nav-link" href="javascript:void(0);">About us</a>
+                       </li>
+                     
+                       <li class="nav-item">
+                         <a class="nav-link" href="javascript:void(0);">Donation</a>
+                       </li>
+                     
+                       <li class="nav-item">
+                         <a class="nav-link" href="javascript:void(0);">Contact-us</a>
+                       </li>
+                     
+                     
+                     </ul>
+                   
+                   </div>
+                
+               </nav>
+         </div>
+        </div>
+     </section>
+  <!-- encrypttion-section -->
+     <section class="encrytion-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a class="back"></a>
+
+                    <div id="stage">
+            
+                        <div id="step1">
+                            <div class="content text-center">
+                                 <h3 class="d-flex align-items-center justify-content-center"> <span><svg xmlns="http://www.w3.org/2000/svg" width="60" height="90" fill="green" class="bi bi-file-earmark-lock-fill" viewBox="0 0 16 16">
+                                    <path d="M7 7a1 1 0 0 1 2 0v1H7V7zM6 9.3c0-.042.02-.107.105-.175A.637.637 0 0 1 6.5 9h3a.64.64 0 0 1 .395.125c.085.068.105.133.105.175v2.4c0 .042-.02.107-.105.175A.637.637 0 0 1 9.5 12h-3a.637.637 0 0 1-.395-.125C6.02 11.807 6 11.742 6 11.7V9.3z"/>
+                                    <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM10 7v1.076c.54.166 1 .597 1 1.224v2.4c0 .816-.781 1.3-1.5 1.3h-3c-.719 0-1.5-.484-1.5-1.3V9.3c0-.627.46-1.058 1-1.224V7a2 2 0 1 1 4 0z"/>
+                                  </svg></span> Free Crypt</h3>
+                                 <p><i>Advanced online file encryption and decryption. Secure any file type and maintain your privacy! The Number. 1 site when it comes to locking important files.
+                                    To get started, select your preferred service below:</i></p>
+                                <h1>What do you want to do?</h1>
+                                <a class="button encrypt green">Encrypt a file</a>
+                                <a class="button decrypt magenta">Decrypt a file</a>
+                            </div>
+                        </div>
+            
+                        <div id="step2">
+            
+                            <div class="content if-encrypt content-two">
+                                <h1>Choose which file to encrypt</h1>
+                                <h2>An encrypted copy of the file will be generated. No data is sent to our server.</h2>
+                                <a class="button browse blue">Browse</a>
+            
+                                <input type="file" id="encrypt-input" />
+                            </div>
+            
+                            <div class="content if-decrypt content-two">
+                                <h1>Choose which file to decrypt</h1>
+                                <h2>Only files encrypted by this tool are accepted.</h2>
+                                <a class="button browse blue">Browse</a>
+            
+                                <input type="file" id="decrypt-input" />
+                            </div>
+            
+                        </div>
+            
+                        <div id="step3">
+            
+                            <div class="content if-encrypt content-two">
+                                <h1>Enter a pass phrase</h1>
+                                <h2>This phrase will be used as an encryption key. Write it down or remember it; you won't be able to restore the file without it. </h2>
+            
+                                <input type="password" />
+                                <a class="button process red">Encrypt!</a>
+                            </div>
+            
+                            <div class="content if-decrypt content-two">
+                                <h1>Enter the pass phrase</h1>
+                                <h2>Enter the pass phrase that was used to encrypt this file. It is not possible to decrypt it without it.</h2>
+            
+                                <input type="password" />
+                                <a class="button process red">Decrypt!</a>
+                            </div>
+            
+                        </div>
+            
+                        <div id="step4">
+            
+                            <div class="content content-two">
+                                <h1>Your file is ready!</h1>
+                                <a class="button download green">Download</a>
+                            </div>
+            
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+    </section> 
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./js/aes.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
