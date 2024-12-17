@@ -18,9 +18,7 @@ $(function(){
 		step(2);
 	});
 
-
 	/* Step 2 */
-
 
 	$('#step2 .button').click(function(){
 		// Trigger the file browser dialog
